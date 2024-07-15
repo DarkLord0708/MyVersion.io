@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Pixelify+Sans:wght@400..700&family=Silkscreen:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+    text-align: center;
+}
+
+.heading{
+   color: rgba(242, 255, 0, 0.819);
+   font-family: "Black Ops One", system-ui;
+   font-size: 10vmin;;
+   font-weight: 400;
+   font-style: normal;
+}
+
+
+ .container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+ }
+
+ .game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+ }
+
+ .box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgb(255, 255, 255,0.3);
+    font-size: 8vmin;
+    background-color: #000000;
+    color: #1F363D;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+ }
+
+ #reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #00100b;
+    color: #fff;
+ }
+
+ #new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #00100b;
+    color: #fff;
+ }
+
+ #msg{
+   color: rgba(242, 255, 0, 0.819);
+   font-family: "Black Ops One", system-ui;
+   font-size: 10vmin;
+   font-weight: 400;
+   font-style: normal;
+    /* font-size: 5vmin; */
+ }
+
+ .msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+
+ }
+
+ .hide{
+    display: none;
+ }
